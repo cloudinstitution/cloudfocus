@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloud Focus Solutions — Multi-Cloud Delivery Partner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style_3.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="wrap nav__inner">
+    <a href="#top" class="nav__logo">
+      <img src="assets/logo.png" alt="Cloud Focus Solutions" class="nav__logo-img">
+      <span class="nav__logo-text">
+        
+      </span>
+    </a>
+    <nav class="nav__links">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#providers">Providers</a>
+      <a href="#proof">Proof</a>
+    </nav>
+    <a href="#contact" class="btn btn--sm btn--primary">Start a project</a>
+    <button class="nav__burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="hero__grid" aria-hidden="true"></div>
+  <div class="wrap hero__inner">
+    <div class="hero__copy">
+      <p class="eyebrow">// multi-cloud delivery partner</p>
+      <h1 class="hero__headline">Infrastructure stood up<br> in days, not quarters.</h1>
+      <p class="hero__sub">Cloud Focus Solutions plans, migrates, and automates cloud environments across AWS, Azure, and GCP — so your team spends time building product, not fighting Terraform.</p>
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--primary">Start a project</a>
+        <a href="#process" class="btn btn--ghost">See our process</a>
+      </div>
+      <dl class="hero__stats">
+        <div><dt>120+</dt><dd>environments shipped</dd></div>
+        <div><dt>3</dt><dd>hyperscalers, one team</dd></div>
+        <div><dt>99.95%</dt><dd>avg. uptime post-handover</dd></div>
+      </dl>
+    </div>
+
+    <div class="hero__diagram" role="img" aria-label="Animated diagram of Cloud Focus Solutions provisioning connected regions across AWS, Azure, and GCP">
+      <svg viewBox="0 0 560 560" class="diagram-svg">
+        <!-- connecting lines -->
+        <g class="lines" stroke-width="1.5" fill="none">
+          <path id="lineA" class="line" d="M280,260 C230,190 190,140 150,95"/>
+          <path id="lineB" class="line" d="M280,260 C340,190 380,140 420,95"/>
+          <path id="lineC" class="line" d="M280,260 C240,320 200,380 150,430"/>
+          <path id="lineD" class="line" d="M280,260 C330,320 370,380 420,430"/>
+          <!-- <path id="lineE" class="line" d="M280,260 C280,320 280,380 280,440"/> -->
+        </g>
+        <!-- traveling pulses -->
+        <circle r="3.4" class="pulse pulse--a"><animateMotion dur="2.6s" repeatCount="indefinite" begin="0s"><mpath href="#lineA"/></animateMotion></circle>
+        <circle r="3.4" class="pulse pulse--b"><animateMotion dur="3.1s" repeatCount="indefinite" begin="0.4s"><mpath href="#lineB"/></animateMotion></circle>
+        <circle r="3.4" class="pulse pulse--c"><animateMotion dur="2.9s" repeatCount="indefinite" begin="0.9s"><mpath href="#lineC"/></animateMotion></circle>
+        <circle r="3.4" class="pulse pulse--d"><animateMotion dur="3.4s" repeatCount="indefinite" begin="1.3s"><mpath href="#lineD"/></animateMotion></circle>
+        <circle r="3.4" class="pulse pulse--e"><animateMotion dur="2.4s" repeatCount="indefinite" begin="1.7s"><mpath href="#lineE"/></animateMotion></circle>
+
+        <!-- hub -->
+        <g transform="translate(280,260)">
+          <circle r="86" class="hub-ring"/>
+          <!-- <circle r="30" class="hub-core"/> -->
+          <text y="5" class="hub-label" text-anchor="middle">Cloud Focus</text>
+        </g>
+
+        <!-- nodes -->
+        <g class="node" transform="translate(150,95)">
+          <circle r="95" class="node-ring node-ring--aws"/>
+          <text y="5" text-anchor="middle" class="node-label" >Cloud Migration</text>
+          <!-- <text y="34" text-anchor="middle" class="node-tag">us-east-1</text> -->
+        </g>
+        <g class="node" transform="translate(420,95)">
+          <circle r="95" class="node-ring node-ring--azure"/>
+          <text y="5" text-anchor="middle" class="node-label">Cloud Modernization</text>
+          <!-- <text y="34" text-anchor="middle" class="node-tag">eu-west-2</text> -->
+        </g>
+        <g class="node" transform="translate(150,430)">
+          <circle r="95" class="node-ring node-ring--gcp"/>
+          <text y="5" text-anchor="middle" class="node-label">Cloud Automation</text>
+          <!-- <text y="34" text-anchor="middle" class="node-tag">asia-south1</text> -->
+        </g>
+        <g class="node" transform="translate(420,430)">
+          <circle r="95" class="node-ring node-ring--aws"/>
+          <text y="5" text-anchor="middle" class="node-label">Cloud Onboarding</text>
+          <!-- <text y="34" text-anchor="middle" class="node-tag">sa-east-1</text> -->
+        </g>
+        <!-- <g class="node" transform="translate(280,440)">
+          <circle r="18" class="node-ring node-ring--azure"/>
+          <text y="4" text-anchor="middle" class="node-label node-label--sm">AZ</text>
+        </g> -->
+      </svg>
+      <!-- <p class="diagram-caption">live provisioning · status: <span class="status-dot"></span> nominal</p> -->
+    </div>
+  </div>
+</section>
+
+<!-- ===== LOGO / TRUST STRIP ===== -->
+<section class="trust">
+  <div class="wrap trust__inner">
+    <p class="trust__label">Certified &amp; delivering across</p>
+    <div class="trust__marks">
+      <span>AWS Advanced Partner</span>
+      <span>Azure Solutions Partner</span>
+      <span>Google Cloud Partner</span>
+      <span>Terraform · Kubernetes · Pulumi</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="services" id="services">
+  <div class="wrap">
+    <p class="section-eyebrow">// what we do</p>
+    <h2 class="section-title">Eight ways into a<br>better-run cloud.</h2>
+
+    <div class="service-grid">
+
+      <article class="card">
+        <div class="card__head"><span class="card__code">MIGRATE</span><span class="card__idx">01</span></div>
+        <h3>Cloud Migration</h3>
+        <p>Move workloads off legacy data centers or between clouds with zero-downtime cutover plans and rollback paths built in.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__head"><span class="card__code">MODERNIZE</span><span class="card__idx">02</span></div>
+        <h3>Cloud Modernization</h3>
+        <p>Refactor monoliths into containerized, serverless, and managed-service architectures that scale without babysitting.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__head"><span class="card__code">AUTOMATE</span><span class="card__idx">03</span></div>
+        <h3>Cloud Automation</h3>
+        <p>Infrastructure as code, CI/CD pipelines, and self-healing systems that remove manual ops from your team's week.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__head"><span class="card__code">PROVISION</span><span class="card__idx">04</span></div>
+        <h3>Cloud Infrastructure Setup</h3>
+        <p>Design and deploy production-grade networking, compute, and storage from a blank account, ready for real traffic.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__head"><span class="card__code">ONBOARD</span><span class="card__idx">05</span></div>
+        <h3>Cloud Onboarding</h3>
+        <p>Get your team access, guardrails, and governance right from day one — accounts, IAM, budgets, and alerts included.</p>
+      </article>
+
+      <article class="card card--provider">
+        <div class="card__head"><span class="card__code card__code--aws">AWS</span><span class="card__idx">06</span></div>
+        <h3>AWS Complete Project Setup</h3>
+        <p>Landing zone, VPC design, IAM guardrails, CloudFormation/CDK baseline, and cost controls — org to production.</p>
+      </article>
+
+      <article class="card card--provider">
+        <div class="card__head"><span class="card__code card__code--azure">AZURE</span><span class="card__idx">07</span></div>
+        <h3>Azure Complete Project Setup</h3>
+        <p>Management groups, subscriptions, Entra ID, networking, and policy-as-code configured to your compliance bar.</p>
+      </article>
+
+      <article class="card card--provider">
+        <div class="card__head"><span class="card__code card__code--gcp">GCP</span><span class="card__idx">08</span></div>
+        <h3>GCP Complete Project Setup</h3>
+        <p>Resource hierarchy, VPC-SC, IAM, and Terraform-managed projects that pass a security review on day one.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROCESS ===== -->
+<section class="process" id="process">
+  <div class="wrap">
+    <p class="section-eyebrow">// how an engagement runs</p>
+    <h2 class="section-title">Five stages.<br>No surprises.</h2>
+
+    <ol class="process-list">
+      <li>
+        <span class="process-num">01</span>
+        <div>
+          <h3>Assess</h3>
+          <p>We audit current workloads, spend, and risk to build a migration or setup plan scoped to what you actually run.</p>
+        </div>
+      </li>
+      <li>
+        <span class="process-num">02</span>
+        <div>
+          <h3>Design</h3>
+          <p>Reference architecture, network topology, and IAM model — reviewed with your team before a single resource is created.</p>
+        </div>
+      </li>
+      <li>
+        <span class="process-num">03</span>
+        <div>
+          <h3>Build</h3>
+          <p>Environments are provisioned as code, in staged environments, with every change reviewed and versioned.</p>
+        </div>
+      </li>
+      <li>
+        <span class="process-num">04</span>
+        <div>
+          <h3>Automate</h3>
+          <p>Pipelines, monitoring, and guardrails go live so the platform runs itself once we're gone.</p>
+        </div>
+      </li>
+      <li>
+        <span class="process-num">05</span>
+        <div>
+          <h3>Handover</h3>
+          <p>Documentation, runbooks, and a live walkthrough with your engineers — you own it outright.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== PROVIDERS ===== -->
+<section class="providers" id="providers">
+  <div class="wrap">
+    <p class="section-eyebrow">// wherever your workloads live</p>
+    <h2 class="section-title">One team, three clouds.</h2>
+    <div class="provider-grid">
+      <div class="provider-card">
+        <span class="provider-dot provider-dot--aws"></span>
+        <h3>AWS</h3>
+        <p>EC2, ECS/EKS, Lambda, RDS, VPC, Organizations, Control Tower.</p>
+      </div>
+      <div class="provider-card">
+        <span class="provider-dot provider-dot--azure"></span>
+        <h3>Azure</h3>
+        <p>AKS, App Service, Functions, Entra ID, Azure Policy, Landing Zones.</p>
+      </div>
+      <div class="provider-card">
+        <span class="provider-dot provider-dot--gcp"></span>
+        <h3>GCP</h3>
+        <p>GKE, Cloud Run, BigQuery, VPC-SC, Organization Policy, IAM.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROOF / TESTIMONIAL ===== -->
+<section class="proof" id="proof">
+  <div class="wrap proof__inner">
+    <blockquote>
+      "Cloud Focus Solutions rebuilt our AWS org from scratch in three weeks — guardrails, pipelines, the works. We haven't touched the console since."
+    </blockquote>
+    <p class="proof__attr">VP Engineering, Series-B fintech</p>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta" id="contact">
+  <div class="wrap cta__inner">
+    <div>
+      <p class="section-eyebrow">// let's talk infrastructure</p>
+      <h2 class="section-title">Tell us what you're<br>running today.</h2>
+      <p class="cta__sub">We'll reply within one business day with a scoped plan — no discovery call required to get started.</p>
+    </div>
+    <form class="cta__form" id="contactForm">
+      <label>
+        Work email
+        <input type="email" name="email" placeholder="you@company.com" required>
+      </label>
+      <label>
+        What do you need?
+        <select name="need" required>
+          <option value="" disabled selected>Select a service</option>
+          <option>Cloud Migration</option>
+          <option>Cloud Modernization</option>
+          <option>Cloud Automation</option>
+          <option>Cloud Infrastructure Setup</option>
+          <option>Cloud Onboarding</option>
+          <option>AWS Complete Project Setup</option>
+          <option>Azure Complete Project Setup</option>
+          <option>GCP Complete Project Setup</option>
+        </select>
+      </label>
+      <label>
+        Anything else?
+        <textarea name="message" rows="3" placeholder="Current stack, timeline, team size…"></textarea>
+      </label>
+      <button type="submit" class="btn btn--primary btn--block">Send request</button>
+      <p class="cta__note" id="formNote" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <a href="#top" class="nav__logo">
+      <img src="assets/logo.png" alt="Cloud Focus Solutions" class="nav__logo-img">
+      <span class="nav__logo-text">
+        Cloud Focus Solutions
+        
+      </span>
+    </a>
+    <nav class="footer__links">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#providers">Providers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <address class="footer__contact">
+      <a href="mailto:info@cloudfocus.in">info@cloudfocus.in</a>
+      1st Phase, 2nd, 15, 100 Feet Ring Rd, near Canara Bank, </br>
+      BTM 2nd Stage, Kuvempu Nagar, Stage, BTM Layout, Bengaluru, Karnataka 560076
+    </br>
+    contact: +91 8660544182
+    </address>
+  </br>
+    <p class="footer__copy">© <span id="year"></span> Cloud Focus Solutions.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
